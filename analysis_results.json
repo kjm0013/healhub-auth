@@ -1,0 +1,49 @@
+{
+  "top_symptoms": [
+    "sore throat",
+    "flu",
+    "cold",
+    "headache",
+    "tension",
+    "joint pain",
+    "acid reflux",
+    "eye strain",
+    "congestion",
+    "sunburn"
+  ],
+  "top_remedies": [
+    "ginger tea",
+    "honey",
+    "coconut oil",
+    "compress",
+    "peppermint oil",
+    "lemon",
+    "turmeric",
+    "black pepper",
+    "apple cider vinegar",
+    "vinegar"
+  ],
+  "content_types": {
+    "videos": "20.0%",
+    "text": "80.0%",
+    "other": "0.0%"
+  },
+  "engagement": {
+    "avg_upvotes": 150,
+    "avg_comments": 47
+  },
+  "suggested_features": [
+    "Symptom-based search with auto-complete",
+    "Video tutorial integration with bookmarking",
+    "User rating system for remedy effectiveness",
+    "Personalized remedy tracker with reminders",
+    "AI-powered remedy recommendation based on symptoms"
+  ],
+  "analysis_summary": {
+    "total_posts_analyzed": 20,
+    "unique_symptoms_found": 25,
+    "unique_remedies_found": 28,
+    "most_discussed_symptom": "sore throat",
+    "most_popular_remedy": "ginger tea"
+  }
+}
