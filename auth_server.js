@@ -6,7 +6,7 @@ const axios = require('axios');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const JWT_SECRET = 'healthhub_secret_2024';
+const JWT_SECRET = process.env.JWT_SECRET || 'healthhub_secret_2024';
 
 // Middleware
 app.use(cors());
@@ -41,7 +41,7 @@ const validateReceipt = async (receiptData) => {
   try {
     const response = await axios.post('https://sandbox.itunes.apple.com/verifyReceipt', {
       'receipt-data': receiptData,
-      'password': 'your_shared_secret' // Replace with actual shared secret
+      'password': process.env.APPLE_SHARED_SECRET || 'your_shared_secret' // Replace with actual shared secret
     });
     return response.data;
   } catch (error) {

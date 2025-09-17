@@ -7,7 +7,12 @@
       "WebFetch(domain:home-remedy-hub.vercel.app)",
       "Bash(npm init:*)",
       "Bash(npm install:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
